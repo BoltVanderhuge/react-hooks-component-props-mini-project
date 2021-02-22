@@ -7,7 +7,7 @@ function Article({minutes, title, date =  "January 1, 1970", preview}) {
     <article>
         <h3>{title}</h3>
         <small>{date}</small>
-        <p>{preview, howLong}</p>
+        <p>{preview}{howLong}</p>
     </article>
     );
 }
